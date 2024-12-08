@@ -5,6 +5,11 @@
 }
 
 
+.hidden {
+    display: none;
+}
+
+
 body {
     font-family: 'Lato', serif;
     color: white;
