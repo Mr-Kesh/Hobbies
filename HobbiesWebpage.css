@@ -20,8 +20,13 @@ body {
 
 
 :focus {
-    outline: 2px solid blue;
-    color: white;
+    outline: none;
+}
+
+
+:focus-visible {
+    outline: 3px solid blue; 
+    outline-offset: 4px; 
 }
 
 
@@ -98,6 +103,7 @@ main {
     max-width: 500px;
     width: 100%;
     text-align: center;
+    order: 1;
 }
 
 
@@ -125,6 +131,7 @@ main {
 
 .hobby-text {
     max-width: 600px;
+    order: -1;
 }
 
 
